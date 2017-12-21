@@ -2,7 +2,9 @@
   "name": "graph-lib",
   "version": "0.0.1",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "w": "tsc -w",
+    "tsc": "tsc"
   },
   "devDependencies": {        
     "@types/jasmine": "^2.5.38",
